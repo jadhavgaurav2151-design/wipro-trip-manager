@@ -1,3 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Wipro Trip Manager Started");
+    document.getElementById("app").innerHTML = `
+        <h1>Welcome to Wipro Trip Manager</h1>
+        <button>Start</button>
+    `;
 });
